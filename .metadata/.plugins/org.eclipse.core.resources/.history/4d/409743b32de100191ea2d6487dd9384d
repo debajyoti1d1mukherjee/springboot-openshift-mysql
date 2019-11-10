@@ -1,0 +1,18 @@
+package com.example.demo.controller;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class RestController {
+	
+
+	
+	//@GetMapping(value = "/api/mobileusage", produces = "application/json")
+	public String getUsages() throws SQLException {
+		return "Hello World";
+	}
+
+	
+
+}

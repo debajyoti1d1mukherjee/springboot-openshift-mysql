@@ -1,0 +1,34 @@
+spring.application.name=springbootopenshift
+## default connection pool
+spring.datasource.hikari.connectionTimeout=20000
+spring.datasource.hikari.max-lifetime=600000
+spring.datasource.hikari.maximumPoolSize=10
+spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults=false
+
+
+## PostgreSQL local
+#spring.datasource.url=jdbc:postgresql://localhost:5432/syniverse
+#pring.datasource.username=rick@ibm.com
+#spring.datasource.password=
+
+## PostgreSQL cloud
+#spring.datasource.url=jdbc:postgresql://${SAMPLEDB_SERVICE_HOST}:${SAMPLEDB_SERVICE_PORT}/sampledb
+#spring.datasource.username=developer
+#spring.datasource.password=developer
+#spring.datasource.driverClassName=org.postgresql.Driver
+# The SQL dialect makes Hibernate generate better SQL for the chosen database
+#spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+
+#drop n create table again, good for testing, comment this in production
+#spring.jpa.hibernate.ddl-auto=create
+
+## MySQL
+spring.datasource.url=jdbc:mysql://${MYSQL_SERVICE_HOST}:${MYSQL_SERVICE_PORT}/wordpress
+spring.datasource.username=mkyong
+spring.datasource.password=password
+
+#`hibernate_sequence' doesn't exist
+spring.jpa.hibernate.use-new-id-generator-mappings=false
+
+# drop n create table, good for testing, comment this in production
+spring.jpa.hibernate.ddl-auto=create

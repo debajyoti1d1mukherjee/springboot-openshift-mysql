@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\IBM_ADMIN\eclipse-workspace"/>
+			<item value="C:\Users\IBM_ADMIN\eclipse-workspace\leave-approval"/>
+			<item value="C:\Users\IBM_ADMIN\eclipse-workspace\openshift-thorntail"/>
+			<item value="C:\Users\IBM_ADMIN\eclipse-workspace\kafka-consumer"/>
+			<item value="C:\Users\IBM_ADMIN\eclipse-workspace\kafka-producer"/>
+			<item value="C:\Users\IBM_ADMIN\eclipse-workspace\jwt"/>
+			<item value="C:\Users\IBM_ADMIN\eclipse-workspace\openshiftpoc3"/>
+			<item value="C:\Users\IBM_ADMIN\eclipse-workspace\openshiftpoc2\openshiftpoc2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\Users\\IBM_ADMIN\\eclipse-workspace\\employee-service\\.git;C\:\\important-workspace\\SpringBootMysqlOpenshift\\.git;C\:\\Users\\IBM_ADMIN\\eclipse-workspace\\department-service\\.git;C\:\\Users\\IBM_ADMIN\\eclipse-workspace\\openshift-thorntail\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\IBM_ADMIN\\eclipse-workspace\\employee-service\\.git;SpringBootMysqlOpenshift\\.git;C\:\\Users\\IBM_ADMIN\\eclipse-workspace\\department-service\\.git;C\:\\Users\\IBM_ADMIN\\eclipse-workspace\\openshift-thorntail\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

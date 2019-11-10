@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment           
+metadata:
+  name: springbootiks                          
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: springbootiks                      
+    spec:
+      containers:                       
+      - name: springbootiks                     
+        image: debajyotim/springbootiks             
+        ports:
+        - containerPort: 8080           
+        

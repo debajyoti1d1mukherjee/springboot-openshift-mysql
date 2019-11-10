@@ -1,0 +1,8 @@
+FROM java:8-alpine
+#FROM lib
+VOLUME /tmp
+#ADD target/lib  lib
+ADD target/app app
+CMD ["java", "-cp", "app","org.springframework.boot.loader.JarLauncher"]
+EXPOSE 8090
+
